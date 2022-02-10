@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Time</title>
+<style>
+body
+{
+ background-image:url(time1.jpg);
+background-size:cover;
+ background-repeat: no-repeat;
+background-attachment: fixed; 
+ background-size: 100% 100%;
+}
+</style>
+
+<style type="text/css">
+h4 {
+background-color: lime;
+padding:20px 20px
+}
+h3 {
+background-color: cyan;
+padding:20px 20px
+}
+h2 {
+background-color: orange;
+padding:20px 20px
+}
+</style>
+</head>
+<body>
+<form name="frm">
+<table border="2">
+<tr><th colspan="2">Set Time</th></tr>
+<tr><td>Set Date :</td><td><input type="text" name="n1"></td></tr>
+<tr><td>Set Time :</td><td><input type="text" name="n2"></td></tr>
+<tr><td>Select Operation :</td><td><select name="ops"><option><b>Monday</b></option><option><b>Tuesday</b></option><option><b>Wednesday</b></option><option><b>Thursday</b></option><option><b>Friday</b></option><option><b>Saturday</b></option></select></td></tr>
+
+<tr><td colspan="2"><input type="button" value="Set" onclick="Operation(n1.value,n2.value,ops.value)"></td></tr>
+</table>
+
+<h4>Friday Date:11-02-22 Time:10:30 to 11:30</h4>
+<h3>Friday Date:11-02-22 Time:11:30 to 12:30</h3>
+<h2>Friday Date:11-02-22 Time:01:30 to 02:30</h2>
+<h1>Friday Date:11-02-22 Time:03:30 to 5:30</h1>
+
+</form>
+<a href="index.html"> <input type="button" value="Back" ></a>
+</body>
+</html>
